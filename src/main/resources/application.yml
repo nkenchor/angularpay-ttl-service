@@ -1,0 +1,17 @@
+spring:
+  application.name: ttl-service
+  main:
+    web-application-type: none
+
+angularpay:
+  timeToLiveSLA:
+    delay: 5
+    timeUnit: MINUTES
+  redis:
+    host: localhost
+    port: 6379
+    timeout: 10000
+  serviceHeaders:
+    username: service_account
+    deviceId: service_account
+    userReference: 8d5b68de-9bae-4264-a8a5-365f29c5a749
